@@ -1,0 +1,18 @@
+    <!--나의 MBTI 확인 버튼-->
+    <div class="MBTI_chk">
+        <button id="chk_btn"> 나의 MBTI? </button>
+    </div>
+
+  /* MBTI 확인 버튼  */
+    .MBTI_chk {
+        margin-top: 63%;
+        text-align: center;
+    }
+    .MBTI_chk button{
+        width: 100px;
+        height: 35px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(166, 166, 166);
+    }
+

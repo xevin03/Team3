@@ -1,0 +1,63 @@
+@media only screen and (min-device-width: 321px) and (max-device-width : 480px ){ 
+
+    body{
+        margin: 0;
+        padding: 0;  
+        width: 100%;
+        height: 100%;
+        background-image: url("../Image/house.jpg");
+    }
+    .nav_box{
+        margin-top: 15px;
+        height: 70px;
+        position: relative;
+        text-align: center;
+    }
+
+    #house_icon{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        position: absolute;
+        left: 20px
+    }
+
+    from{
+        margin-top: 35%;
+        height: 70%;
+        display: block;
+        text-align: center;
+    }
+    #txtName{
+        width: 100%;
+        height: 30px;
+    }
+    #txtContent {
+        width: 100%;
+        height: 250px;
+    }
+    #txtSumit{
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .MBTI_chk{
+        text-align: center;
+        margin: 10px;
+    }
+    /* MBTI 버튼 CSS */
+    /* MBTI 확인 버튼  */
+    .MBTI_chk {
+        margin-top: 63%;
+        text-align: center;
+    }
+    .MBTI_chk button{
+        width: 100px;
+        height: 35px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(166, 166, 166);
+    }
+
+}
