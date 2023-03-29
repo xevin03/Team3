@@ -1,17 +1,21 @@
-@media only screen and (min-device-width: 321px) and (max-device-width : 480px ){ 
+
 
     body{
         margin: 0;
         padding: 0;  
         width: 100%;
         height: 100%;
-        background-image: url("../Image/house.jpg");
+        
     }
+    .content {
+        background-image: url("../Image/house.jpg");
+        width: 360px;
+        height: 640px;
+        margin: auto;
+    }
+    /*상단바*/
     .link_box {
-        margin-top: 10px;
-        height: 100px;
         display: flex;
-        position: relative;
         flex-direction: row;
         text-align: center;
     }
@@ -24,13 +28,11 @@
         width: 60px;
         height: 60px;
         font-size: 30px;
-        position: absolute;
-        left: 30px
     }
+    /*글 쓰러 가기 등 박스*/
     .btn_box{
-        width: 80%;
-        margin-top: 35%;
-        margin-left: 10%;
+        width: 100%;
+        margin-top: 45%;
         text-align: center;
     }
     .btn_box button {
@@ -43,25 +45,12 @@
     }
     .small_btn {
         text-align: center;
+        margin-top: 45%;
     }
     .small_btn button{
-        margin: 10px;
         width: 100px;
-        height: 30px;
+        height: 35px;
         border-radius: 10px;
         background-color: #cfcfcf;
     } 
     
-    /* MBTI 확인 버튼 */
-    .MBTI_chk {
-        margin-top: 63%;
-        text-align: center;
-    }
-    .MBTI_chk button{
-        width: 100px;
-        height: 35px;
-        border: 1px solid black;
-        border-radius: 10px;
-        background-color: rgb(166, 166, 166);
-    }
-}

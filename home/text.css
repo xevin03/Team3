@@ -1,41 +1,48 @@
-@media only screen and (min-device-width: 321px) and (max-device-width : 480px ){ 
-
     body{
         margin: 0;
         padding: 0;  
+        box-sizing: border-box;
         width: 100%;
         height: 100%;
-        background-image: url("../Image/house.jpg");
     }
-    .nav_box{
-        margin-top: 15px;
-        height: 70px;
-        position: relative;
+    .content {
+        background-image: url("../Image/house.jpg");
+        width: 350px;
+        height: 640px;
+        margin: auto;
+    }
+
+   /*상단바*/
+   .link_box {
+        display: flex;
+        flex-direction: row;
         text-align: center;
     }
 
     #house_icon{
+        margin-top: 10px;
         width: 60px;
         height: 60px;
         font-size: 30px;
-        position: absolute;
-        left: 20px
     }
 
-    from{
-        margin-top: 35%;
-        height: 70%;
+    form{
+        margin-top: 32%;
         display: block;
         text-align: center;
     }
+
+    /* 글쓰는  form */
     #txtName{
-        width: 100%;
+        width: 340px;
         height: 30px;
     }
     #txtContent {
-        width: 100%;
+        margin-top: 3px;
+        width: 340px;
         height: 250px;
     }
+
     #txtSumit{
         width: 100%;
         height: 40px;
@@ -47,9 +54,8 @@
         margin: 10px;
     }
     /* MBTI 버튼 CSS */
-    /* MBTI 확인 버튼  */
     .MBTI_chk {
-        margin-top: 63%;
+        margin-top: 20%;
         text-align: center;
     }
     .MBTI_chk button{
@@ -60,4 +66,3 @@
         background-color: rgb(166, 166, 166);
     }
 
-}

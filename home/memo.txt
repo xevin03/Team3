@@ -16,3 +16,7 @@
         background-color: rgb(166, 166, 166);
     }
 
+    <div class="nav_box">
+            <button id="house_icon">집</button>
+    </div>
+
