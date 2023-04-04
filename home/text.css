@@ -13,19 +13,19 @@
     }
 
    /*상단바*/
-   .link_box {
-        display: flex;
-        flex-direction: row;
+   .nav_box{
+        height: 70px;
+        position: relative;
         text-align: center;
     }
 
-    #house_icon{
+    #home_icon{
         margin-top: 10px;
         width: 60px;
         height: 60px;
-        font-size: 30px;
+        position: absolute;
+        left: 20px
     }
-
     form{
         margin-top: 32%;
         display: block;

@@ -1,0 +1,74 @@
+
+body{
+    margin: 0;
+    padding: 0;  
+    width: 100%;
+    height: 100%;
+}
+.content {
+    background-image: url("../Image/house.jpg");
+    width: 360px;
+    height: 640px;
+    margin: auto;
+}
+/*상단바*/
+.nav_box{
+    height: 70px;
+    position: relative;
+    text-align: center;
+}
+
+#home_icon{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 20px
+}
+/* 메모 아이콘 박스 */
+.memo_box {
+    height: 280px;
+    width: 360px;
+    margin-top: 20%;
+    text-align: center;
+}
+.memo_box img {
+    margin: 10px;
+}
+/* 메모 확인 버튼*/
+.check_box {
+    text-align: center;
+}
+.check_box button {
+    margin-top: 3%;
+    width: 70px;
+    height: 35px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: rgb(250, 224, 224);
+}
+
+/* open박스  */
+.box_open {
+    text-align: center;
+}
+.box_open img {
+    width: 100px;
+    height: 100px;
+}
+
+/* MBTI 확인 버튼  */
+.MBTI_chk {
+    margin-top: 1%;
+    text-align: center;
+}
+.MBTI_chk button{
+    margin-top: 3%;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 10px;
+    background-color: rgb(166, 166, 166);
+}
+
+

@@ -1,3 +1,25 @@
+  
+   
+ /*상단바*/
+     .nav_box{
+        height: 70px;
+        position: relative;
+        text-align: center;
+    }
+
+    #home_icon{
+        margin-top: 10px;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 20px
+    }
+    #link_btn {
+        margin-top: 20px;
+        margin-left: 70%;
+        width: 70px;
+    }
+
     <!--나의 MBTI 확인 버튼-->
     <div class="MBTI_chk">
         <button id="chk_btn"> 나의 MBTI? </button>

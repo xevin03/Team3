@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;  
+    width: 100%;
+    height: 100%;
+    
+}
+.content {
+    background-image: url("../Image/bg.jpg");
+        width: 360px;
+        height: 640px;
+        margin: auto;
+}
+
+/*아이디 비밀번호 구현 input*/
+.login_box {
+    padding-top: 50%;
+    height: 30%;
+    text-align: center;
+}
+
+.login_box div input {
+    margin-top: 20px;
+    width: 270px;
+    height: 45px;
+    border: 1px solid azure;
+    border-radius: 10px;
+    background-color: azure;
+    font-size: 15px;
+}
+
+/*로그인 회원가입 버튼 구현*/
+.btn_box {
+    margin-top: 10%;
+    height: 20%;
+    text-align: center;
+}
+.btn_box div button {
+    margin: 6px;
+    width: 270px;
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    font-size: 20px;
+}
