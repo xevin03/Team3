@@ -6,6 +6,7 @@ body{
     height: 100%;
 }
 .content {
+    margin-top: 5%;
     background-image: url("../Image/house.jpg");
     width: 360px;
     height: 640px;
@@ -71,4 +72,20 @@ body{
     background-color: rgb(166, 166, 166);
 }
 
-
+/*대형 휴대폰 기기일때*/
+@media (max-width: 430px) {
+    .content {
+        margin-top: 7%; 
+    }
+}
+@media (min-width: 768px) {
+    .content {
+        margin-top: 5%; 
+    }
+}
+/*노트북 크기일 때*/
+@media (min-width: 1000px) {
+    .content {
+        margin-top: 8%; 
+    }
+}
